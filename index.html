@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>news.mn Header</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+
+<nav class="news-navbar navbar">
+  <div class="container-1250 d-flex align-items-center justify-content-between gap-3 flex-nowrap" style="min-height:60px;">
+    <a href="#" class="news-logo flex-shrink-0">
+         <img src="./logo.svg" alt="news.mn">
+    </a>
+
+    <div class="social-icons flex-shrink-0">
+      <a href="#" title="Messenger"><i class="bi bi-messenger"></i></a>
+      <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" title="Twitter / X"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" title="RSS"><i class="bi bi-rss-fill"></i></a>
+    </div>
+
+    <div class="search-wrapper flex-shrink-0">
+      <input type="text" placeholder="Хайх..." />
+      <button type="button"><i class="bi bi-search"></i></button>
+    </div>
+
+    <div class="stats-block flex-shrink-0">
+      <div class="stat-item">
+        <span class="stat-label">Зурхай</span>
+        <span class="stat-value">2026/03/05</span>
+      </div>
+      <!-- Доллар -->
+      <div class="stat-item">
+        <span class="stat-label">Доллар (USD)</span>
+        <span class="stat-value">
+          <span class="flag">🇺🇸</span>
+          3,548.92
+        </span>
+      </div>
+      <!-- Улаанбаатар -->
+      <div class="stat-item">
+        <span class="stat-label">Улаанбаатар</span>
+        <span class="stat-value">
+          <span class="weather-icon">🌤️</span>
+          +9°C
+        </span>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+<!-- ── NAVIGATION BAR ── -->
+<nav class="news-subnav">
+  <div class="container-1250">
+    <div class="subnav-inner">
+
+    <!-- Left menu -->
+    <ul class="subnav-list">
+      <li><a href="#" class="subnav-link active"><i class="bi bi-house-fill"></i></a></li>
+      <li><a href="#" class="subnav-link">УЛС ТӨР</a></li>
+      <li><a href="#" class="subnav-link">ЭДИЙН ЗАСАГ</a></li>
+      <li><a href="#" class="subnav-link">НИЙГЭМ</a></li>
+      <li><a href="#" class="subnav-link">ДЭЛХИЙ</a></li>
+      <li><a href="#" class="subnav-link">СПОРТ</a></li>
+      <li><a href="#" class="subnav-link">ЭНТЕРТАЙНМЕНТ</a></li>
+      <li><a href="#" class="subnav-link">ШАР МЭДЭЭ</a></li>
+      <li><a href="#" class="subnav-link">ВИДЕО</a></li>
+    </ul>
+
+    <!-- Right menu -->
+    <ul class="subnav-list subnav-right">
+      <li><a href="#" class="subnav-link">NEWS BRAND</a></li>
+      <li><a href="#" class="subnav-link">БУЛАНГУУД</a></li>
+      <li><a href="#" class="subnav-link">ЦОГЦ МЭДЭЭ</a></li>
+      <li><a href="#" class="subnav-link">АРХИВ</a></li>
+      <li><a href="#" class="subnav-link">МОНГОЛ БИЧИГ</a></li>
+      <li><a href="#" class="subnav-link">ENGLISH</a></li>
+    </ul>
+
+    </div><!-- /subnav-inner -->
+  </div><!-- /container-1250 -->
+</nav>
+
+
+<!-- ── MAIN CONTENT AREA ── -->
+<div class="main-content">
+  <div class="container-1250">
+
+    <!-- Date Tabs -->
+    <div class="date-tabs">
+      <a href="#" class="date-tab active">Пүрэв 2026-03-05</a>
+      <a href="#" class="date-tab">Лхагва 2026-03-04</a>
+      <a href="#" class="date-tab">Мягмар 2026-03-03</a>
+      <a href="#" class="date-tab">Даваа 2026-03-02</a>
+      <a href="#" class="date-tab">Ням 2026-03-01</a>
+      <a href="#" class="date-tab">Бямба 2026-02-28</a>
+      <a href="#" class="date-tab">Баасан 2026-02-27</a>
+    </div>
+
+    <!-- Content Row -->
+    <div class="content-row">
+
+      <!-- LEFT: News Grid -->
+      <div class="news-grid-area">
+
+        <!-- Hero 2-column layout -->
+        <div class="hero-row">
+
+          <!-- Left: Big featured article -->
+          <div class="hero-left">
+            <div class="hero-article">
+              <div class="hero-img-wrap">
+                <img src="https://picsum.photos/seed/mn1/700/460" alt="hero news" />
+                <div class="hero-logo-badge">
+                  <span class="n-badge">N</span> news.mn
+                </div>
+              </div>
+              <div class="hero-body">
+                <h2 class="hero-title">Б.ЖАВХЛАН: 500 САЯ ДОЛЛАРЫН БОНДЫГ ХҮҮ БАГАТАЙ ГАРГАЖ, ЭРСДЛИЙГ БУУРУУЛАА</h2>
+                <p class="hero-desc">2028 он хүртэл хүү нь төлөгдөх 320 сая ам.долларын 8.65 хувийн хүүтэй зардлыг 5.95 болгож, нийтдээ 57 тэрбум төгрөгийн хүүгийн зардлыг бодитоор хэмнэх боломж гарлаа.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: 2 stacked small articles -->
+          <div class="hero-right">
+            <div class="news-card-v">
+              <div class="news-card-img-v">
+                <img src="https://picsum.photos/seed/mn2/400/230" alt="" />
+              </div>
+              <div class="news-card-body-v">
+                <p class="news-card-title-v">ЯПОНЫ ТАЛ АНУ, ЕВРОПЫН ХООРОНД ГҮҮР БОЛНО</p>
+              </div>
+            </div>
+            <div class="news-card-v">
+              <div class="news-card-img-v">
+                <img src="https://picsum.photos/seed/mn3/400/230" alt="" />
+              </div>
+              <div class="news-card-body-v">
+                <p class="news-card-title-v">Х.НЯМБААТАР: ХУЦАЖ БАЙГАА НОХОЙ БОЛГОН РУУ ЧУЛУУ ШИДЭХ ЗАВ АЛГА</p>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /hero-row -->
+
+        <!-- Grid row 2 -->
+        <div class="news-small-grid">
+          <div class="news-card">
+            <div class="news-card-img"><img src="https://picsum.photos/seed/mn5/300/180" alt="" /></div>
+            <p class="news-card-title">Жсандарстгарнийн брэнд СКИЙН итгэн тарглагийн тамжнага</p>
+          </div>
+          <div class="news-card">
+            <div class="news-card-img"><img src="https://picsum.photos/seed/mn6/300/180" alt="" /></div>
+            <p class="news-card-title">Хятад улс водлопын жилийн дарааталт таргалж II дэлхий дахиар</p>
+          </div>
+          <div class="news-card">
+            <div class="news-card-img"><img src="https://picsum.photos/seed/mn7/300/180" alt="" /></div>
+            <p class="news-card-title">Монгол Болейн спорт хэзээ хэтийн 827</p>
+          </div>
+        </div>
+
+        <!-- Grid row 3 -->
+        <div class="news-small-grid">
+          <div class="news-card">
+            <div class="news-card-img"><img src="https://picsum.photos/seed/mn8/300/180" alt="" /></div>
+            <p class="news-card-title">Улсын пийшин П.Сайнбаярт хилийн хорит тавих</p>
+          </div>
+          <div class="news-card">
+            <div class="news-card-img"><img src="https://picsum.photos/seed/mn9/300/180" alt="" /></div>
+            <p class="news-card-title">Тэнцэлийн байгтийн суртгул байгулах зохиошвэжийн болоогүй</p>
+          </div>
+          <div class="news-card">
+            <div class="news-card-img"><img src="https://picsum.photos/seed/mn10/300/180" alt="" /></div>
+            <p class="news-card-title">ХСБАН АА бус лод мэдэлийн хисэн онгоны бугдад тарганцаг</p>
+          </div>
+        </div>
+
+        <!-- Grid row 4 (new) -->
+        <div class="news-small-grid">
+          <div class="news-card">
+            <div class="news-card-img"><img src="https://picsum.photos/seed/mn11/300/180" alt="" /></div>
+            <p class="news-card-title">Монгол, Хятадын хилийн боомтуудаар нэвтрэх журам шинэчлэгдэнэ</p>
+          </div>
+          <div class="news-card">
+            <div class="news-card-img"><img src="https://picsum.photos/seed/mn12/300/180" alt="" /></div>
+            <p class="news-card-title">Нийслэлийн замын хөдөлгөөний түгжрэлийг бууруулах шинэ арга хэмжээ</p>
+          </div>
+          <div class="news-card">
+            <div class="news-card-img"><img src="https://picsum.photos/seed/mn13/300/180" alt="" /></div>
+            <p class="news-card-title">Эрүүл мэндийн даатгалын шинэ журам 2026 оноос хэрэгжиж эхэлнэ</p>
+          </div>
+        </div>
+
+      </div><!-- /news-grid-area -->
+
+      <!-- RIGHT: Sidebar -->
+      <aside class="sidebar">
+
+        <!-- Ad Banner -->
+        <div class="sidebar-ad">
+          <img src="https://picsum.photos/seed/ad1/300/200" alt="ad" style="width:100%;border-radius:6px;" />
+        </div>
+
+        <!-- Шинэ мэдээ -->
+        <div class="sidebar-section">
+          <div class="sidebar-section-header">
+            <span class="section-title-red">ШИНЭ МЭДЭЭ</span>
+            <div class="sidebar-header-icons">
+              <button class="sidebar-icon-btn active"><i class="bi bi-clock-fill"></i></button>
+              <button class="sidebar-icon-btn"><i class="bi bi-eye"></i></button>
+              <button class="sidebar-icon-btn"><i class="bi bi-chat"></i></button>
+            </div>
+          </div>
+
+          <!-- Scroll wrapper with custom scrollbar buttons -->
+          <div class="sidebar-scroll-outer">
+            <button class="scroll-arrow-btn scroll-up" id="scrollUp"><i class="bi bi-chevron-up"></i></button>
+            <div class="sidebar-scroll-inner" id="sidebarScroll">
+              <ul class="sidebar-news-list">
+                <li class="sidebar-news-item">
+                  <a href="#">Увс аймгийн Засаг даргын орлогчоор С.Анхбаярыг томилжээ</a>
+                  <span class="sidebar-time"><i class="bi bi-clock"></i> 7 цагийн өмнө</span>
+                </li>
+                <li class="sidebar-news-item">
+                  <a href="#">УИХ-ын гишүүн П.Сайнзоригт хилийн хориг тавив</a>
+                  <span class="sidebar-time"><i class="bi bi-clock"></i> 7 цагийн өмнө</span>
+                </li>
+                <li class="sidebar-news-item">
+                  <a href="#">Хөлбөмбөгийн ДАШТ хүртэлх 100 өдөр, 10 баримт</a>
+                  <span class="sidebar-time"><i class="bi bi-clock"></i> 8 цагийн өмнө</span>
+                </li>
+                <li class="sidebar-news-item">
+                  <a href="#">Элсэлтийн шалгалтын бүртгэл эхэллээ</a>
+                  <span class="sidebar-time"><i class="bi bi-clock"></i> 9 цагийн өмнө</span>
+                </li>
+                <li class="sidebar-news-item">
+                  <a href="#">УБТЗ-ын удирдах ажилтны зөвлөгөөн болов</a>
+                  <span class="sidebar-time"><i class="bi bi-clock"></i> 9 цагийн өмнө</span>
+                </li>
+                <li class="sidebar-news-item">
+                  <a href="#">Ж.Сандагсүрэнгийн оронд СХД-ийн ИТХ-ын тэргүүлэгчийг томилжээ</a>
+                  <span class="sidebar-time"><i class="bi bi-clock"></i> 9 цагийн өмнө</span>
+                </li>
+                <li class="sidebar-news-item">
+                  <a href=">"Төрийн шийдвэрээс болж морь дагасан сөөл устаж байна"</a>
+                  <span class="sidebar-time"><i class="bi bi-clock"></i> 10 цагийн өмнө</span>
+                </li>
+                <li class="sidebar-news-item">
+                  <a href="#">Монгол Улсын Их Хурлын ээлжит бус чуулган хуралдана</a>
+                  <span class="sidebar-time"><i class="bi bi-clock"></i> 10 цагийн өмнө</span>
+                </li>
+                <li class="sidebar-news-item">
+                  <a href="#">Засгийн газрын хуралдаанаар хэд хэдэн асуудал хэлэлцэнэ</a>
+                  <span class="sidebar-time"><i class="bi bi-clock"></i> 11 цагийн өмнө</span>
+                </li>
+                <li class="sidebar-news-item">
+                  <a href="#">Улаанбаатар хотын агаарын чанар муудаж байна</a>
+                  <span class="sidebar-time"><i class="bi bi-clock"></i> 11 цагийн өмнө</span>
+                </li>
+              </ul>
+            </div>
+            <button class="scroll-arrow-btn scroll-down" id="scrollDown"><i class="bi bi-chevron-down"></i></button>
+          </div>
+
+        </div>
+
+        <!-- Second Ad -->
+        <div class="sidebar-ad-bottom">
+          <img src="https://picsum.photos/seed/ad2/300/400" alt="ad" />
+        </div>
+
+      </aside>
+
+    </div><!-- /content-row -->
+  </div><!-- /container-1250 -->
+</div><!-- /main-content -->
+
+<!-- ── РЕДАКЦИЙН СОНГОЛТ ── -->
+<div class="editor-section">
+  <div class="container-1250">
+    <div class="section-header-bar">
+      <span class="section-header-title">РЕДАКЦИЙН СОНГОЛТ</span>
+    </div>
+    <div class="editor-grid">
+
+      <!-- Card 1 -->
+      <div class="editor-card">
+        <h3 class="editor-card-title">ОРХОН ГОЛД СУУДЛЫН АВТОМАШИН ЦӨМӨРЧЭЭ</h3>
+        <p class="editor-card-desc">Орхон гол дээгүүр зорчиж явсан машин цөмөрсөн гэх дуудлага энэ сарын 4-ний 01:59 цагт Сэлэнгэ аймгийн Онцгой байдлын газарт ирсэн байна. Дуудлагын дагуу Сэлэнгэ аймгийн...</p>
+        <div class="editor-author">
+          <img src="https://i.pravatar.cc/40?img=11" alt="author" class="author-avatar" />
+          <div>
+            <span class="author-name">Н. ЦОЛМОНБААТАР</span>
+            <span class="author-role">Сэтгүүлч</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="editor-card">
+        <h3 class="editor-card-title">ТӨРИЙН ЦАГДАА АМГАЛАН БАЙГ</h3>
+        <p class="editor-card-desc">Төрийн цагдаа түмнийг хамгаална. Миний цагдаа намайг хамгаална гэж ярьдаг. Цагдаагийн алба бол төрийн нэрийн өмнөөс хуулийг сахиулах, иргэдийн аюулгүй байдлыг хангах...</p>
+        <div class="editor-author">
+          <img src="https://i.pravatar.cc/40?img=12" alt="author" class="author-avatar" />
+          <div>
+            <span class="author-name">Н. ЦОЛМОНБААТАР</span>
+            <span class="author-role">Сэтгүүлч</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="editor-card">
+        <h3 class="editor-card-title">VS: ХАВРЫН МОРИН УРАЛДААНЫ СЭРГЭЭХ НЬ ЗӨВ, БУРУУ</h3>
+        <p class="editor-card-desc">Засгийн газрын 2019 онд батласан тогтоолоор хаврын морин уралдааныг жил бүрийн арванхэдэгдүгээр сарын 1-нээс тавдугаар сарын 1-н хүртэлх хугацаанд зохион байгуулахыг...</p>
+        <div class="editor-author">
+          <img src="https://i.pravatar.cc/40?img=13" alt="author" class="author-avatar" />
+          <div>
+            <span class="author-name">А. ТАМИР</span>
+            <span class="author-role">Сэтгүүлч</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="editor-card">
+        <h3 class="editor-card-title">СУРВАЛЖЛАГА: ХҮҮХЭД БҮРИЙН ТӨСӨӨЛЛИЙН ЕРТӨНЦИЙГ БҮТЭЭЖ</h3>
+        <p class="editor-card-desc">Хүүхдүүд зургийн сургалтад хамрагдсанаар зөвхөн зураг сурахаас гадна сэтгэлгээ, төсөөлөл, бүтээлч байдлыг хөгжүүлэх, энгийн зохицол, дүрслэл, сэтгэх чадвар, урлагийн...</p>
+        <div class="editor-author">
+          <img src="https://i.pravatar.cc/40?img=5" alt="author" class="author-avatar" />
+          <div>
+            <span class="author-name">Б. НАРАНТУЯА</span>
+            <span class="author-role">Сэтгүүлч</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Banner Ad -->
+    <div class="bottom-banner">
+      <img src="https://picsum.photos/seed/cop17/1200/220" alt="COP17 Banner" />
+      <div class="bottom-banner-overlay">
+        <div class="cop-logo">🌿</div>
+        <div class="cop-text">
+          <div class="cop-sub">UNCCD</div>
+          <div class="cop-main">COP17</div>
+          <div class="cop-sub2">ULAANBAATAR 2026</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ── КАТЕГОРИ + ВИДЕО SECTION ── -->
+<div class="cat-section">
+  <div class="container-1250">
+    <div class="cat-row">
+
+      <!-- LEFT: Category news blocks -->
+      <div class="cat-left">
+
+        <!-- ДЭЛХИЙ -->
+        <div class="cat-block">
+          <div class="cat-block-header"><span class="cat-title">ДЭЛХИЙ</span></div>
+          <div class="cat-news-row">
+            <div class="cat-main">
+              <h3 class="cat-main-title">ЭРС АРГА ХЭМЖЭЭ АВАХГҮЙ БОЛ 2040 ОН ГЭХЭД ХАГАС ТЭРБУМ ХҮҮХЭД ИЛҮҮДЭЛ</h3>
+              <p class="cat-main-desc">Дэлхий дахиад 180 сая хүүхэд хэт таргалалттай байна гэх тайланг Дэлхийн таргалалтын холбоо...</p>
+            </div>
+            <div class="cat-thumb">
+              <img src="https://picsum.photos/seed/cat1/200/140" alt="" />
+            </div>
+            <div class="cat-side-list">
+              <a href="#" class="cat-side-item">Иранны дараагийн удирдагч өмнөх шигээ хүн байх вий гэж Трамп айж байна</a>
+              <a href="#" class="cat-side-item">Японы тал АНУ, Европын хооронд гүүр болно</a>
+              <a href="#" class="cat-side-item">Хятад улс бодлогын жижиг өөрчлөлт гаргахад л дэлхий дахиад долгион үүсгэдэг</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- АНГИЛАЛГҮЙ 1 -->
+        <div class="cat-block">
+          <div class="cat-block-header"><span class="cat-title">АНГИЛАЛГҮЙ</span></div>
+          <div class="cat-news-row">
+            <div class="cat-main">
+              <h3 class="cat-main-title">УВС АЙМГИЙН ЗАСАГ ДАРГЫН ОРЛОГЧООР С.АНХБАЯРЫГ ТОМИЛЖЭЭ</h3>
+              <p class="cat-main-desc">Увс аймгийн Иргэдийн Төлөөлөгчдийн хурал өнгөрсөн хоёрдугаар сард хуралдаж, Засаг...</p>
+            </div>
+            <div class="cat-thumb">
+              <img src="https://picsum.photos/seed/cat2/200/140" alt="" />
+              <div class="cat-thumb-badge"><span class="n-badge">N</span> news.mn</div>
+            </div>
+            <div class="cat-side-list">
+              <a href="#" class="cat-side-item">УИХ-ын гишүүн П.Сайнзоригт хилийн хориг тавив</a>
+              <a href="#" class="cat-side-item">Хөлбөмбөгийн ДАШТ хүртэлх 100 өдөр, 10 баримт</a>
+              <a href="#" class="cat-side-item">Элсэлтийн шалгалтын бүртгэл эхэллээ</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- АНГИЛАЛГҮЙ 2 -->
+        <div class="cat-block">
+          <div class="cat-block-header"><span class="cat-title">АНГИЛАЛГҮЙ</span></div>
+          <div class="cat-news-row">
+            <div class="cat-main">
+              <h3 class="cat-main-title">УВС АЙМГИЙН ЗАСАГ ДАРГЫН ОРЛОГЧООР С.АНХБАЯРЫГ ТОМИЛЖЭЭ</h3>
+              <p class="cat-main-desc">Увс аймгийн Иргэдийн Төлөөлөгчдийн хурал өнгөрсөн хоёрдугаар сард хуралдаж, Засаг...</p>
+            </div>
+            <div class="cat-thumb">
+              <img src="https://picsum.photos/seed/cat3/200/140" alt="" />
+              <div class="cat-thumb-badge"><span class="n-badge">N</span> news.mn</div>
+            </div>
+            <div class="cat-side-list">
+              <a href="#" class="cat-side-item">УИХ-ын гишүүн П.Сайнзоригт хилийн хориг тавив</a>
+              <a href="#" class="cat-side-item">Хөлбөмбөгийн ДАШТ хүртэлх 100 өдөр, 10 баримт</a>
+              <a href="#" class="cat-side-item">Элсэлтийн шалгалтын бүртгэл эхэллээ</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ПАРЛАМЕНТ 76 -->
+        <div class="cat-block">
+          <div class="cat-block-header"><span class="cat-title">ПАРЛАМЕНТ 76</span></div>
+          <div class="cat-news-row">
+            <div class="cat-main">
+              <h3 class="cat-main-title">"ДЭЛГЭЦИЙН ДОНТОЛТ СЭТГЭЛ ГУТРАЛД ӨРТӨХ ЭРСДЭЛИЙГ 80 ХУВЬ"</h3>
+              <p class="cat-main-desc">Гэр бүлийн харилцааны асуудал, салалт, хүчирхийлэл, хүүхдийн орчин нөхцөл, сургуулийн өөрчлөгдөх, хайр...</p>
+            </div>
+            <div class="cat-thumb">
+              <img src="https://picsum.photos/seed/cat4/200/140" alt="" />
+            </div>
+            <div class="cat-side-list">
+              <a href="#" class="cat-side-item">"Монгол эрдэмтдийн бүтээлийг эдийн засгийн эргэлтэд оруулахыг дэмжинэ"</a>
+              <a href="#" class="cat-side-item">"120 хуулийн өөрчлөлт цахим шилжилтийн том реформ болно"</a>
+              <a href="#" class="cat-side-item">ИЦББХ: Төр байгаа мэдээлэлээ цаасаар нэгдэг байдлыг хална</a>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /cat-left -->
+
+      <!-- RIGHT: Video + Цогц мэдээ -->
+      <aside class="cat-sidebar">
+
+        <!-- Видео -->
+        <div class="cat-sidebar-block">
+          <div class="cat-sidebar-header"><span class="cat-title">ВИДЕО</span></div>
+          <div class="video-thumb-wrap">
+            <img src="https://picsum.photos/seed/vid1/300/180" alt="video" />
+            <button class="play-btn"><i class="bi bi-play-fill"></i></button>
+          </div>
+          <div class="video-title-bar">
+            <span class="video-label">Г.Түвдэндоржийн "АЖЛЫН ЦАГ"</span>
+            <button class="play-btn-sm"><i class="bi bi-play-fill"></i></button>
+          </div>
+        </div>
+
+        <!-- Цогц мэдээ -->
+        <div class="cat-sidebar-block">
+          <div class="cat-sidebar-header d-flex align-items-center justify-content-between">
+            <span class="cat-title">ЦОГЦ МЭДЭЭ</span>
+            <select class="cogc-select">
+              <option>сонгуул-2024</option>
+              <option>эдийн засаг</option>
+              <option>улс төр</option>
+            </select>
+          </div>
+          <div class="cogc-list">
+            <div class="cogc-item">
+              <img src="https://picsum.photos/seed/cogc1/80/60" alt="" />
+              <a href="#" class="cogc-title">"Хотын олон асуудлыг шийдвэрлэж чадах баг"</a>
+            </div>
+            <div class="cogc-item">
+              <img src="https://picsum.photos/seed/cogc2/80/60" alt="" />
+              <a href="#" class="cogc-title">Нэр дэвшигчийг УИХ-ын гишүүнээр сонгосонд</a>
+            </div>
+            <div class="cogc-item">
+              <img src="https://picsum.photos/seed/cogc3/80/60" alt="" />
+              <a href="#" class="cogc-title">АН: Хэсгийн ахлагч нар "Заавал МАН-ыг дэмжинэ"</a>
+            </div>
+          </div>
+        </div>
+
+      </aside>
+
+    </div><!-- /cat-row -->
+  </div><!-- /container-1250 -->
+</div><!-- /cat-section -->
+
+
+<!-- ── МЭДЭЭЛЛИЙН ТҮНШЛЭГЧ ── -->
+<div class="partner-section">
+  <div class="container-1250">
+    <div class="section-header-bar">
+      <span class="section-header-title">МЭДЭЭЛЛИЙН ТҮНШЛЭГЧ</span>
+    </div>
+    <div class="partner-grid">
+
+      <!-- CCTV -->
+      <div class="partner-col">
+        <div class="partner-logo">
+          <span class="logo-cctv">CCTV</span>
+        </div>
+        <div class="partner-news-list">
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p1/70/52" alt="" />
+            <a href="#">"Мосфильм" кино студийг Путин магтжээ</a>
+          </div>
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p2/70/52" alt="" />
+            <a href="#">"Зөвлөл дэвтрийн нүүрэнд багтаахаргүй их ажил хийсэн"</a>
+          </div>
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p3/70/52" alt="" />
+            <a href="#">"Оюутолгой" ХХК-ийн ТУЗ-ийн гишүүнээр Э.Мэндтүвшинг</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ТҮНШ (no logo text, just label) -->
+      <div class="partner-col">
+        <div class="partner-logo">
+          <span class="logo-tunsh">ТҮНШ</span>
+        </div>
+        <div class="partner-news-list">
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p4/70/52" alt="" />
+            <a href="#">Сурвалжлага: "Нэгнээ пингвин алхалтаар явахгүй ясан юм</a>
+          </div>
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p5/70/52" alt="" />
+            <a href="#">Сурвалжлага: Байрны хаалга, шал, цахилгааны утсыг нь</a>
+          </div>
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p6/70/52" alt="" />
+            <a href="#">Сурвалжлага: Таны зүргийг хиймэл оюун ухаанаар</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ТҮНШ 2 -->
+      <div class="partner-col">
+        <div class="partner-logo">
+          <img src="https://picsum.photos/seed/logo3/60/24" alt="түнш" style="height:24px;width:auto;border-radius:3px;" />
+          <span class="logo-tunsh" style="margin-left:6px;">ТҮНШ</span>
+        </div>
+        <div class="partner-news-list">
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p7/70/52" alt="" />
+            <a href="#">"Хамас булгэм энгийн иргэдээр нуувч хийж байна"</a>
+          </div>
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p8/70/52" alt="" />
+            <a href="#">"Хятад НҮБ-ын Тогтвортой хөгжил хөтөлбөрийн ядуурлыг</a>
+          </div>
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p9/70/52" alt="" />
+            <a href="#">"Солонгос, Монгол хоёр өгөөмөр, тусч зангаараа</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- baabar.mn -->
+      <div class="partner-col">
+        <div class="partner-logo">
+          <span class="logo-baabar">baabar<span style="color:#d0021b;">.mn</span></span>
+        </div>
+        <div class="partner-news-list">
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p10/70/52" alt="" />
+            <a href="#">Илжигний чихэнд алт хийсэн ч</a>
+          </div>
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p11/70/52" alt="" />
+            <a href="#">Л.Оюун-Эрдэнэ "тооноор оруулсан гийчид"-дээ</a>
+          </div>
+          <div class="partner-news-item">
+            <img src="https://picsum.photos/seed/p12/70/52" alt="" />
+            <a href="#">Улсаасаа баян хүн байна... гэв үү?</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- ── HIT NEWS / ENGLISH / SURVEY ── -->
+<div class="hitnews-section">
+  <div class="container-1250">
+    <div class="hitnews-row">
+
+      <!-- LEFT: HIT NEWS -->
+      <div class="hitnews-col">
+        <div class="section-header-bar">
+          <span class="section-header-title">HIT NEWS</span>
+        </div>
+        <div class="hit-filter">
+          <select class="hit-select">
+            <option>24 цагаар</option>
+            <option>7 хоногоор</option>
+            <option>Сараар</option>
+          </select>
+        </div>
+        <ol class="hit-list">
+          <li class="hit-item">
+            <span class="hit-num">1</span>
+            <div class="hit-info">
+              <a href="#">Эрс арга хэмжээ авахгүй гэхэд хагас тэрбум хүүхэд илүүдэл жинтэй</a>
+            </div>
+            <img src="https://picsum.photos/seed/h1/70/52" alt="" />
+          </li>
+          <li class="hit-item">
+            <span class="hit-num">2</span>
+            <div class="hit-info">
+              <a href="#">Цагаач эмэгтэйчүүд Оросын армийн хүн хүчний хомсдолыг нөхөж эхлэв</a>
+            </div>
+            <img src="https://picsum.photos/seed/h2/70/52" alt="" />
+          </li>
+          <li class="hit-item">
+            <span class="hit-num">3</span>
+            <div class="hit-info">
+              <a href="#">ХХБ Япон улсын JETRO-тай хамтран бизнес түншлэлийн уулзалт зохион</a>
+            </div>
+            <img src="https://picsum.photos/seed/h3/70/52" alt="" />
+          </li>
+          <li class="hit-item">
+            <span class="hit-num">4</span>
+            <div class="hit-info">
+              <a href="#">Төрийн байгууллага, албан тушаалтан мэдээллийг албаны нууцад хамааруулдаг</a>
+            </div>
+            <img src="https://picsum.photos/seed/h4/70/52" alt="" />
+          </li>
+          <li class="hit-item">
+            <span class="hit-num">5</span>
+            <div class="hit-info">
+              <a href="#">"Хичээлийн байргүй сургууль байгуулах зөвшөөрөл өгч болохгүй"</a>
+            </div>
+            <img src="https://picsum.photos/seed/h5/70/52" alt="" />
+          </li>
+          <li class="hit-item">
+            <span class="hit-num">6</span>
+            <div class="hit-info">
+              <a href="#">Хятад улс бодлогын жижиг өөрчлөлт гаргахад л дэлхий дахиад долгион үүсгэдэг</a>
+            </div>
+            <img src="https://picsum.photos/seed/h6/70/52" alt="" />
+          </li>
+          <li class="hit-item">
+            <span class="hit-num">7</span>
+            <div class="hit-info">
+              <a href="#">"АН-ын шинэчлэл бусад намын хүч зузаатгал болж болохгүй"</a>
+            </div>
+            <img src="https://picsum.photos/seed/h7/70/52" alt="" />
+          </li>
+        </ol>
+      </div>
+
+      <!-- MIDDLE: English News + Монгол Бичиг -->
+      <div class="hitnews-col">
+        <!-- English News -->
+        <div class="section-header-bar">
+          <span class="section-header-title">ENGLISH NEWS</span>
+        </div>
+        <ul class="english-list">
+          <li><a href="#">"Museum Open Days" in Mongolia continue</a></li>
+          <li><a href="#">China advances toward green development</a></li>
+          <li><a href="#">Mongolia seeks Guinness record for world's largest deel</a></li>
+          <li><a href="#">Matvienko receives Mongolia's highest state decoration</a></li>
+          <li><a href="#">8.7B MNT allocated to rebuild Building 207 after gas explosion</a></li>
+        </ul>
+
+        <!-- Монгол Бичиг -->
+        <div class="section-header-bar" style="margin-top:20px;">
+          <span class="section-header-title">МОНГОЛ БИЧИГ</span>
+        </div>
+        <div class="mongol-bichig-wrap">
+          <div class="mongol-text">ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠮᠡᠳᠡᠭᠡ ᠮᠡᠳᠡᠭᠡᠯᠡᠯ ᠦᠨ ᠬᠣᠯᠪᠣᠭᠠ ᠪᠠᠷ ᠳᠠᠮᠵᠢᠭᠤᠯᠤᠨ ᠨᠡᠶᠢᠲᠡᠯᠡᠵᠦ ᠪᠠᠶᠢᠨᠠ᠃</div>
+          <div class="mongol-text">ᠤᠯᠤᠰ ᠤᠨ ᠶᠡᠬᠡ ᠬᠤᠷᠠᠯ ᠤᠨ ᠭᠡᠰᠢᠭᠦᠨ ᠫ᠂ ᠰᠠᠶᠢᠨᠵᠣᠷᠢᠭ ᠲᠤ ᠬᠢᠯᠢ ᠶᠢᠨ ᠬᠣᠷᠢᠭ ᠲᠠᠯᠪᠢᠪ᠃</div>
+          <div class="mongol-text">ᠬᠥᠯ ᠪᠥᠮᠪᠥᠭᠡ ᠶᠢᠨ ᠳᠠᠰᠢ ᠲ ᠬᠦᠷᠲᠡᠯᠡᠬᠢ 1400 ᠡᠳᠦᠷ᠂ 10 ᠪᠠᠷᠢᠮᠲᠠ</div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Survey + Ad -->
+      <div class="hitnews-col">
+        <span class="section-header-title">Санал асуулга</span>
+        <div class="survey-img">
+          <img src="https://picsum.photos/seed/sport1/320/180" alt="" />
+        </div>
+        <p class="survey-question">Та бүхэн спортын тэмцээн, уралдааны дүн, мэдээллээ хаанаас авдаг вэ?</p>
+        <div class="survey-bars">
+          <div class="survey-item">
+            <span class="survey-label">Сошиал медиа <span class="survey-info">ⓘ</span></span>
+            <div class="survey-bar-wrap">
+              <div class="survey-bar" style="width:35.55%"></div>
+            </div>
+            <span class="survey-pct">35.55%</span>
+          </div>
+          <div class="survey-item">
+            <span class="survey-label">Мэргэшсэн вебсайт <span class="survey-info">ⓘ</span></span>
+            <div class="survey-bar-wrap">
+              <div class="survey-bar" style="width:33.15%"></div>
+            </div>
+            <span class="survey-pct">33.15%</span>
+          </div>
+          <div class="survey-item">
+            <span class="survey-label">Найз нөхөд, танилууд <span class="survey-info">ⓘ</span></span>
+            <div class="survey-bar-wrap">
+              <div class="survey-bar short" style="width:8.55%"></div>
+            </div>
+            <span class="survey-pct">8.55%</span>
+          </div>
+          <div class="survey-item">
+            <span class="survey-label">Спортын аппликейшн <span class="survey-info">ⓘ</span></span>
+            <div class="survey-bar-wrap">
+              <div class="survey-bar" style="width:13.84%"></div>
+            </div>
+            <span class="survey-pct">13.84%</span>
+          </div>
+          <div class="survey-item">
+            <span class="survey-label">Телевиз <span class="survey-info">ⓘ</span></span>
+            <div class="survey-bar-wrap">
+              <div class="survey-bar short" style="width:0.77%"></div>
+            </div>
+            <span class="survey-pct">0.77%</span>
+          </div>
+          <div class="survey-item">
+            <span class="survey-label">Телеграм суваг <span class="survey-info">ⓘ</span></span>
+            <div class="survey-bar-wrap">
+              <div class="survey-bar short" style="width:8.14%"></div>
+            </div>
+            <span class="survey-pct">8.14%</span>
+          </div>
+        </div>
+        <p class="survey-ended">Хугацаа дууссан</p>
+        <div class="survey-footer">
+          <button class="survey-btn" disabled>Санал өгөх</button>
+          <span class="survey-total">( Нийт санал: 57037 )</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- ── 4 COLUMN CATEGORY CARDS + EMOJI ── -->
+<div class="fourcat-section">
+  <div class="container-1250">
+    <div class="fourcat-grid">
+
+      <!-- Col 1: АНГИЛАЛГҮЙ -->
+      <div class="fourcat-col">
+        <div class="fourcat-header"><span class="cat-title">АНГИЛАЛГҮЙ</span></div>
+        <div class="fourcat-img-wrap">
+          <img src="https://picsum.photos/seed/fc1/300/200" alt="" />
+          <div class="cat-thumb-badge"><span class="n-badge">N</span> news.mn</div>
+        </div>
+        <h4 class="fourcat-title">Увс аймгийн Засаг даргын орлогчоор С.Анхбаарыг томилжээ</h4>
+        <a href="#" class="fourcat-sub">УИХ-ын гишүүн П.Сайнзоригт хилийн хориг</a>
+        <a href="#" class="fourcat-sub">Хөлбөмбөгийн ДАШТ хүртэлх 100 өдөр, 10</a>
+      </div>
+
+      <!-- Col 2: АНГИЛАЛГҮЙ -->
+      <div class="fourcat-col">
+        <div class="fourcat-header"><span class="cat-title">АНГИЛАЛГҮЙ</span></div>
+        <div class="fourcat-img-wrap">
+          <img src="https://picsum.photos/seed/fc2/300/200" alt="" />
+        </div>
+        <h4 class="fourcat-title">Элсэлтийн шалгалтын бүртгэл эхэллээ</h4>
+        <a href="#" class="fourcat-sub">УБТЗ-ын удирдах ажилтны зөвлөгөөн болов</a>
+        <a href="#" class="fourcat-sub">Ж.Сандагсүрэнгийн оронд СХД-ийн ИТХ-ын</a>
+      </div>
+
+      <!-- Col 3: НИЙГЭМ -->
+      <div class="fourcat-col">
+        <div class="fourcat-header"><span class="cat-title">НИЙГЭМ</span></div>
+        <div class="fourcat-img-wrap">
+          <img src="https://picsum.photos/seed/fc3/300/200" alt="" />
+        </div>
+        <h4 class="fourcat-title">"Төрийн шийдвэрээс болж морь дагасан сөөл устаж байна"</h4>
+        <a href="#" class="fourcat-sub">Сүүлийн 9 жилд 3412 хүүхэд мориноос унаж,</a>
+        <a href="#" class="fourcat-sub">Шивэр хандгайг агнасан иргэнд хоёр жилийн</a>
+      </div>
+
+      <!-- Col 4: СОНГО -->
+      <div class="fourcat-col">
+        <div class="fourcat-header"><span class="cat-title">СОНГО</span></div>
+        <div class="fourcat-img-wrap">
+          <img src="https://picsum.photos/seed/fc4/300/200" alt="" />
+          <div class="fourcat-label-badge">НЭЭЛТТЭЙ</div>
+        </div>
+        <h4 class="fourcat-title">"АН-ын шинэчлэл бусад намын хүч зузаатгал болж болохгүй"</h4>
+        <a href="#" class="fourcat-sub">Төрийн байгууллага, албан тушаалтан</a>
+        <a href="#" class="fourcat-sub">Эрс арга хэмжээ авахгүй бол 2040 он гэхэд</a>
+      </div>
+
+    </div>
+
+    <!-- Emoji Reactions -->
+    <div class="emoji-row">
+      <button class="emoji-btn">❤️</button>
+      <button class="emoji-btn">😄</button>
+      <button class="emoji-btn">😍</button>
+      <button class="emoji-btn">😮</button>
+      <button class="emoji-btn">😢</button>
+      <button class="emoji-btn">💩</button>
+      <button class="emoji-btn">😡</button>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ── FOOTER ── -->
+<footer class="site-footer">
+  <!-- Top footer: logo + contact info -->
+  <div class="footer-top">
+    <div class="container-1250">
+      <div class="footer-top-row">
+
+        <!-- Logo -->
+        <div class="footer-logo">
+          <div class="footer-logo-circle">
+            <span>N</span>
+          </div>
+          <span class="footer-logo-text">news.mn</span>
+        </div>
+
+        <!-- Address -->
+        <div class="footer-contact-item">
+          <div class="footer-icon-circle">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <p>Монгол улс, Улаанбаатар хот, Сүхбаатар дүүрэг, Бага тойруу, Сүхбаатарын талбай 8/1, "Хөвсгөл Лейк Сити" тауэр, 14 давхар</p>
+        </div>
+
+        <!-- Email -->
+        <div class="footer-contact-item">
+          <div class="footer-icon-circle">
+            <i class="bi bi-envelope-fill"></i>
+          </div>
+          <p>info@news-agency.mn</p>
+        </div>
+
+        <!-- Phone -->
+        <div class="footer-contact-item footer-phone">
+          <div class="footer-icon-circle">
+            <i class="bi bi-telephone-fill"></i>
+          </div>
+          <span class="footer-phone-num">7575-0303</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom footer: links + app buttons -->
+  <div class="footer-bottom">
+    <div class="container-1250">
+      <div class="footer-bottom-row">
+        <div class="footer-links-wrap">
+          <div class="footer-links">
+            <a href="#">Бидний тухай</a>
+            <span>/</span>
+            <a href="#">Сурталчилгаа байршуулах</a>
+            <span>/</span>
+            <a href="#">Холбоо барих</a>
+            <span>/</span>
+            <a href="#">Вэб сайт хогжүүлэгч</a>
+            <span>/</span>
+            <a href="#">RSS</a>
+          </div>
+          <p class="footer-copy">Зохиогчийн эрх хуулиар хамгаалагдсан. Мэдээлэл хуулбарлах хориотой.</p>
+        </div>
+        <div class="footer-apps">
+          <a href="#" class="app-btn">
+            <i class="bi bi-apple"></i>
+            <div>
+              <span class="app-small">Download on the</span>
+              <span class="app-big">App Store</span>
+            </div>
+          </a>
+          <a href="#" class="app-btn">
+            <i class="bi bi-google-play"></i>
+            <div>
+              <span class="app-small">Android APP on</span>
+              <span class="app-big">Google Play</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  const scrollBox = document.getElementById('sidebarScroll');
+  document.getElementById('scrollUp').addEventListener('click', () => {
+    scrollBox.scrollBy({ top: -120, behavior: 'smooth' });
+  });
+  document.getElementById('scrollDown').addEventListener('click', () => {
+    scrollBox.scrollBy({ top: 120, behavior: 'smooth' });
+  });
+</script>
+</body>
+</html>
